@@ -48,7 +48,6 @@ export const Redirect = () => {
   useEffect(() => {
     const code = getCode()
     const token = fetchAccessToken(code)
-    console.log(token)
   }, [])
 
   return <div>you made it TF IN BITCH!!!!! LETS GOOOO</div>
