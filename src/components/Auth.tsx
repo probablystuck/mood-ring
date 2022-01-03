@@ -30,5 +30,28 @@ async function getAuth() {
 }
 
 export const Auth = () => {
-  return <Button onClick={getAuth}>Text</Button>
+  return (
+    <div
+      style={{
+        backgroundImage: "conic-gradient(#FFEC8B, #FFDDF4, #FFEC8B)",
+        height: "100vh",
+        width: "100vw",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <Button
+        onClick={getAuth}
+        style={{
+          fontFamily: "Luxurious Roman",
+          textTransform: "none",
+          backgroundColor: "#ffffff",
+          alignSelf: "center",
+        }}
+        variant="outlined"
+      >
+        check in with spotify
+      </Button>
+    </div>
+  )
 }
